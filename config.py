@@ -11,7 +11,7 @@ API_ID = int(getenv("API_ID", "27412915"))
 
 API_HASH = getenv("API_HASH", "3fcf3b84e1bad89d67c216c0750da858")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAEYXKKJbGzUDGK4fLxo53IB5YCCsHhb9NU")
+BOT_TOKEN = getenv("BOT_TOKEN", "5684047435:AAGiLB9pPeYxdXs-8H5Wrg_lusktu6xJY7M")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 
@@ -27,7 +27,7 @@ BOTADDLOGS = int(getenv("BOTADDLOGS", "-1001603822916"))
 
 OWNER_ID = int(getenv("OWNER_ID", "7552579717"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "NottyyXMusicBot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DilwarHosen/RedWine",
+    "https://github.com/DilwarHosen/Nottyy",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ALONE")
 GIT_TOKEN = getenv(
@@ -68,7 +68,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGHA7AACDKewU6Kob8Qg7TNCk7vX8zMma1tk6pkIYESb12qglcyRwIXSdAb5dKevKMHo2RD6zSo0mi7DZmrjWMrA1UwUf9IBlVj96dbIf2j0e41n1hcDriukrVsOnZP7wG9s5O1qDITy8s4ttpsWMG5WREMxtDRui61k8SDhaga8rQJwZ-jEbMVNyagZYSgPepGGsW_UGbwAADU6y5W1ODAzfnF84GIPaVNQVpgX56_ffuRn42-DT-AjKx3TfgP2erTDWfhRubyu-VEhy8Pl4H_-6u_-cTykyAptAcxOiPiVsbB3ZPRJiHgRE4mWtuPqqOdMeOOuVx-BpSpu5Ts7c54728-sQAAAAG2UkNcAA")
+STRING1 = getenv("STRING_SESSION", "BQGYIgQACnL16koOq6Dq4Pa8Twfq4xUruIMvI0VZd3vO4Iz09o6cnGBl5P70WaT1Zp8z9FlNk_MrPyCDGgzyQQtknkMNkIo-v9de34c3OswE_QDwrN22q1R-r0grPjju4u7JxzCP5C3BA_nxE0iktGo3-yAT4MNIQ5Yl39xgdlSjL-ySthL5pRgNeLzchDRb6DmIYpQFaEgk-PFvoCKU4HK0kQ9pLy-h-bhuVbtUGZT9FETCShWkk9V28yZkIWkDgYNprFh_P0LlZ_Ay1gyQsOuBR2VYP-76yyGCTw2OoMy0jGb5GxdB5J6I-OhTuDGxrk_hlFYV9VptVO8W1CRI7lkIoUlwAAAAHmljNXAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -88,21 +88,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/n2f6fh.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/f2g33y.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/n2f6fh.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/f2g33y.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/n2f6fh.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/n2f6fh.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/n2f6fh.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/f2g33y.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/f2g33y.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/f2g33y.jpg"
 
 
 def time_to_seconds(time):
