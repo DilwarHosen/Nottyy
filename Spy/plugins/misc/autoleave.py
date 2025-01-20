@@ -11,7 +11,7 @@ from Spy.utils.database import get_client, is_active_chat, is_autoend
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
-        while not await asyncio.sleep(700):
+        while not await asyncio.sleep(900):
             from Spy.core.userbot import assistants
 
             for num in assistants:
@@ -26,7 +26,7 @@ async def auto_leave():
                         ]:
                             if (
                                 i.chat.id != config.LOGGER_ID
-                                and i.chat.id != -1001686672798
+                                and i.chat.id != -1001775986475
                                 and i.chat.id != -1001549206010
                             ):
                                 if left == 20:
